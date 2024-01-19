@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    paddimg : 0px;
+}
+body{
+    background-color: rgb(236, 232, 232);
+}
+.banner{
+    background: url(banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color:white;
+    border: 0px;
+    padding: 50px;
+    margin: 0px;
+}
+h2{
+    background-color: rgba(5, 2, 12, 0.6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 35%;
+    padding : 10px;
+}
+.outer{
+    background-color: whitesmoke;
+    background-size: 70%;
+    height: 800px;
+    width: 60%;
+    padding : 10px;
+    margin : 10px;
+    box-shadow: 2px 2px 2px 2px #605d5d;
+}
+
+h4{
+    background-color: #cdcaca;
+    padding : 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    background-color: aqua;
+    color: red;
+}
+input[type="radio"] + label{
+    background-color: beige;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.dom{
+    border: 2px solid black;
+    background-color: beige;
+}
+input[type="text"]{
+background-color: beige;
+border: 0px;
+}
+.grand{
+    background-color: whitesmoke;
+    background-size: 70%;
+  
+    width: 30%;
+    padding : 10px;
+    margin : 10px;
+    box-shadow: 2px 2px 2px 2px #605d5d;
+}
+
+@media screen and (max-width: 236px) {
+body {
+.banner {
+  width: 100%;
+}
+}
+}
+
+@media screen and (max-width: 131px) {
+body {
+.banner {
+  width: 100%;
+}
+}
+}
+
+@media screen and (max-width: 600px) {
+h2 {
+font-size: 20px;
+
+}
+}
+
+
+@media screen and (max-width: 400px) {
+h2 {
+font-size: 18px;
+
+}
+}
