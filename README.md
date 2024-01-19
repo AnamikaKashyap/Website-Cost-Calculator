@@ -34,7 +34,7 @@ h2{
 .outer{
     background-color: whitesmoke;
     background-size: 70%;
-    height: 800px;
+    height: 1000px;
     width: 60%;
     padding : 10px;
     margin : 10px;
@@ -69,7 +69,7 @@ border: 0px;
 .grand{
     background-color: whitesmoke;
     background-size: 70%;
-  
+  float : right;
     width: 30%;
     padding : 10px;
     margin : 10px;
